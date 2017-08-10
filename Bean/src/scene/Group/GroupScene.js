@@ -20,11 +20,12 @@ import {
 } from 'react-native';
 import screen from '../../common/screen';
 import color from '../../widget/color';
+
 import NavigationItem from '../../widget/NavigationItem';
 import { Paragraph,Heading1 } from '../../widget/Text';
 export  default  class  GroupScene extends PureComponent{
     static  navigationOptions =({navigation})=>({
-        headerTitle:'书影音',
+        headerTitle:'小组',
         headerLeft:(
             <NavigationItem
                 title='上海'
